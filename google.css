@@ -1,0 +1,86 @@
+body{
+    background-color: white;
+}
+.container{ 
+    width: auto;
+    margin: auto;   
+}
+.navbar{
+    color: #070707;
+    overflow: hidden;
+   
+}
+.navbar ul{
+    list-style: none;
+    padding-left: 10px;
+    overflow: hidden;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.navbar ul li{
+    float: left;
+    padding:5px;  
+}
+.navbar ul img{
+    float: left;
+    padding:5px; 
+     
+}
+.navbar ul li a{
+    text-decoration: none;
+}
+.search{
+    background-color:white ;
+    height: 400px;
+}
+.search .intro{
+    padding-top: 80px;
+    text-align: center;
+}
+.search .intro img{
+    margin: 0px auto;
+    width:  400px;
+    padding: 5px 0px;
+}
+.search .intro .input{
+
+    color: black;
+    font-size: 25px;
+    font-weight: 1px;
+}
+.search .intro .button{
+    margin-top: 10px;
+    color: black;
+    font-size: 25px;
+    font-weight: 1px;
+}
+.country{
+
+    overflow: hidden;
+}
+.country h4{
+    color:black;
+}
+
+.footer{
+
+    /* padding: 10px; */
+    text-align: center;
+    overflow: hidden;
+    /* padding: 5px 0; */
+}
+.footer span ul{
+    float: left;
+    margin-top: 20px;
+    color:black;
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+    float: right;
+    margin-right: 30px;
+}
+.footer ul li{
+    display: inline-block;
+}
